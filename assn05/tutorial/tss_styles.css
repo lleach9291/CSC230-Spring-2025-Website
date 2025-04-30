@@ -91,7 +91,9 @@ article.syllabus ol {
 article.syllabus ol ol {
    list-style-type:upper upper-alpha;
 }
-
+article.syllabus ol ol ol {
+   list-style-type: decimal;
+}
 
 
 
