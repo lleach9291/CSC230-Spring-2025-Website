@@ -85,6 +85,12 @@ nav>ul {
 
 
 /* List Styles */
+article.syllabus ol {
+   list-style-type:upper-roman;
+}
+article.syllabus ol ol {
+   list-style-type:upper upper-alpha;
+}
 
 
 
