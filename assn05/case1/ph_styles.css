@@ -65,21 +65,23 @@ p {
  }
  #play1 {
    background-color: hsl(240, 100%, 88%);
+   font-family: Champagne, cursive;
  }
  
  #play2 {
    background-color: hsl(25, 88%, 73%);
+   font-family: Grunge, 'Times New Roman', Times, serif;
  }
  
  #play3 {
    background-color: hsl(0, 100%, 75%);
+   font-family: Impact, Charcoal, sans-serif;
  }
  
  #play4 {
    background-color: hsl(296, 86%, 86%);
+   font-family: Dobkin, cursive;
  }
-
-
 
 
 
