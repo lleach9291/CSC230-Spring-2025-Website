@@ -35,15 +35,20 @@ body > p {
 
 
 /* Navigation Styles */
-p {
-   margin: 0;
-   padding: 5px 25px;
+nav a {
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   padding: 10px 0;
  }
 
 
 
 
 /* Section Styles */
+p {
+   margin: 0;
+   padding: 5px 25px;
+ }
+
 
 
 
