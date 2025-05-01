@@ -68,9 +68,20 @@ aside {
 aside blockquote {
    color:rgb(232,165,116);
    margin:20px 5px;
+   quotes:"\201C" "\201D";
 }
-
-
+aside blockquote::before {
+   content:open-quote;
+   font-family:'Times New Roman',Times,Serif;
+   font-size:1.6em;
+   font-weight:bold;
+}
+aside blockquote::after {
+   Content:close-quote;
+   font-family:'Times New Roman',Times,Serif;
+   font-size:1.6em;
+   font-weight:bold;
+}
 
 
 
