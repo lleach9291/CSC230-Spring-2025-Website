@@ -19,17 +19,21 @@
 
 
 /* Structural Styles */
+
 html{
    background-color: hsl (91,8%,56%);
 }
 body{
-   color:rbg (58,31%,84%);
-   background:black;
+   color:rgb(58,31%,84%);
    font-family:Palatino,serif;
 }
 body > p {
    font-size: 1.1em;
    text-align: center;
+ }
+ p {
+   margin: 0;
+   padding: 5px 25px;
  }
 
 
@@ -53,10 +57,7 @@ nav a:hover {
 
 /* Section Styles */
 
-p {
-   margin: 0;
-   padding: 5px 25px;
- }
+
  section.playbill h1 {
    font-size: 3em;
    font-weight: normal;
@@ -86,16 +87,17 @@ p {
 
 
 /* Description List Styles */
-dt {
-   font-size: 1.3em;
-   font-weight: bold;
-   color: hsla(0, 0%, 0%, 0.4);
-}
 dd {
    font-size: 1.3em;
    margin-left: 0;
    margin-bottom: 10px;
  }
+dt {
+   font-size: 1.3em;
+   font-weight: bold;
+   color: hsla(0, 0%, 0%, 0.4);
+}
+
 /* Footer Styles */
 address {
    font-style: normal; /* Normal font style */
