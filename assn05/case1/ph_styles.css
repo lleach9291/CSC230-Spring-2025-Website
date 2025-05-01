@@ -51,4 +51,10 @@ p {
 /* Description List Styles */
 
 /* Footer Styles */
+address {
+   font-style: normal; /* Normal font style */
+   font-size: 0.9em;   /* Reduced font size by 0.9 em */
+   text-align: center;  /* Center the text horizontally */
+   padding: 10px 0;    /* 10px top/bottom padding, 0 left/right padding */
+ }
 
