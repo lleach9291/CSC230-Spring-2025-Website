@@ -82,6 +82,9 @@ nav>ul {
    list-style-type: none;
    padding-left: 5px;
 }
+nav>ul>li.newgroup {
+   margin-top: 20px;
+}
 
 
 
