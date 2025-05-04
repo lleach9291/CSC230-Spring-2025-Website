@@ -107,18 +107,15 @@ aside blockquote::after {
 nav > ul > li:hover a,
 nav > ul > li a:active {
   color: rgb(222, 128, 60);
-  text-decoration: underline;
-}
-nav > ul > li:hover a,
-nav > ul > li a:active {
-  color: rgb(222, 128, 60);
-  text-decoration: underline;
-}
+  text-decoration: underline;}
 
 
 
 
 /* Paragraph Styles */
+p {
+   margin: 10px 30px 10px 0;
+ }
 
 
 
