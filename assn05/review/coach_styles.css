@@ -120,6 +120,14 @@ p {
 
 
 /* List Styles */
+article.coach_bio > header > ul {
+   list-style-image: url("check.png");
+   margin-top: 0;
+   margin-right: 0;
+   margin-left: 0;
+   margin-bottom: 10px;
+   padding: 0;
+ }
 
 /* Footer Styles */
 body > footer > address {
