@@ -1,3 +1,9 @@
+@charset "utf-8";
+@font-face {
+   Font-Family: Nobile;
+   src:url(nobile-webfont.woff) format ('woff'),
+   url('nobile-webfont.ttf') format('truetype');
+}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -13,11 +19,25 @@
 
 
 /* Main Structural Styles */
+html {
+   background-color: hsl(27,72%,72%);
+}
+body {
+   color: rgb(91,91,91);
+   background-color: ivory;
+   font-family: Verdana,Geneva,San Serif;
+}
 
 
 
 
 /* Heading Styles */
+h1 {
+   font-family: 'Nobile', 'Verdana', 'Geneva', sans-serif;
+   font-weight: normal;
+   letter-spacing: 0.2em;
+   margin: 0;
+ }
 
 
 
@@ -36,6 +56,19 @@
 
 
 /* List Styles */
+
+/* Footer Styles */
+body > footer > address {
+   background-color: rgb(222, 128, 60);
+   color: rgba(255, 255, 255, 0.6);
+   font-style: normal;
+   font-weight: bold;
+   font-variant: small-caps;
+   font-size: 0.9em;
+   line-height: 3em;
+   font-family: Nobile, Verdana, Geneva, sans-serif;
+   text-align: center;
+ }
 
 
 
