@@ -32,16 +32,48 @@ body {
 
 
 /* Heading Styles */
+section#tss_coaches h1 {
+   font-size: 2.5em;
+   color: hsl(27, 82%, 85%);
+   background-color: hsl(27, 6%, 21%);
+   padding-left: 10px;
+}
 h1 {
    font-family: 'Nobile', 'Verdana', 'Geneva', sans-serif;
    font-weight: normal;
    letter-spacing: 0.2em;
    margin: 0;
  }
+ .article.coach_bio h2 {
+   font-size: 1.6em;
+   font-weight: normal;
+   color: rgb(240, 125, 0);
+ }
 
 
 
 /* Blockquote Styles */
+aside blockquote {
+   font-size: 0.95em;
+   font-family: 'Comic Sans MS', cursive;
+   color: rgb(222, 128, 60);
+   background-color: rgba(255, 255, 255, 0.75);
+   padding: 10px;
+}
+
+aside blockquote::before {
+   content: '\201C'; 
+   font-size: 1.6em;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+aside blockquote::after {
+   content: '\201D'; 
+   font-size: 1.6em;
+   font-family: 'Times New Roman', Times, serif;
+}
+
 
 
 
