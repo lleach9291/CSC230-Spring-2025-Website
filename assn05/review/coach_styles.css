@@ -95,6 +95,15 @@ aside blockquote::after {
  nav > ul li:nth-child(16) {
    margin-top: 20px;
  }
+ nav > ul > li a {
+   color: rgb(151, 151, 151);
+   text-decoration: none;
+ }
+ 
+ nav > ul > li a:visited {
+   color: rgb(151, 151, 151); /* Ensure visited links also use the same color */
+   text-decoration: none;
+}
 
 
 
