@@ -109,11 +109,7 @@ nav > ul > li a:active {
   color: rgb(222, 128, 60);
   text-decoration: underline;
 }
-nav > ul > li:hover a,
-nav > ul > li a:active {
-  color: rgb(222, 128, 60);
-  text-decoration: underline;
-}
+
 
 
 
