@@ -85,3 +85,8 @@ footer>section#ContatInfo {
    float: left;
    width: 34%;
 }
+footer{
+   background-color:rgb(71,52,29);
+   clear:left;
+}
+
