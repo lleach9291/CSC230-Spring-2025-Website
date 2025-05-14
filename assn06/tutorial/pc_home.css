@@ -21,9 +21,13 @@ body{
    min-width:640px;
    width:95%;
 }
+
 body>header>img{
    display:block;
    width:100%;
+}
+body>header>nav.horizontalNavigation li{
+   width:20%;
 }
 
 
@@ -33,6 +37,10 @@ body>header>img{
 
 
 /* Horizontal Navigation Styles */
+nav.horizontalNavigation li {
+   display:block;
+   float:left;
+}
 
 
 
