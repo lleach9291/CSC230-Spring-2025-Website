@@ -29,3 +29,10 @@ address,article,aside,blockquote,body,cite,div,dl,dt,dd,em,figcaption,figure,foo
    padding:0;
    vertical-align:baseline;
 }
+ nav ul {
+   list-style:none;
+   list-style-image:none;
+ }
+ nav a {
+   text-decoration:none;
+ }
