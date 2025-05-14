@@ -36,3 +36,6 @@ address,article,aside,blockquote,body,cite,div,dl,dt,dd,em,figcaption,figure,foo
  nav a {
    text-decoration:none;
  }
+ body{
+   line-height:1;
+ }
