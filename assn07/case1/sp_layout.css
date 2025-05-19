@@ -36,7 +36,14 @@ body {
    grid-column: span 3; 
    width: 100%; 
  }
-
+ section img {
+   width: 50%;
+   margin: 0 auto;
+ }
+ section p {
+   width: 70%;
+   margin: 0 auto; 
+ }
 
 
 /* Row Styles */
