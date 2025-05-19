@@ -40,16 +40,33 @@ p:first-of-type::first-letter {
  
 
 /* Aside Styles */
+aside {
+  width: 768px;
+  float: left;
+}
 
 
 
 
 /* Map Styles */
+#battleMap {
+  width: 688px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#mapImage {
+  display: block;
+  width: 100%;
+}
 
 
 
 
 /* Interactive Map Styles */
+
 
 
 
