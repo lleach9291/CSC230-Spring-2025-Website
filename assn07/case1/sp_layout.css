@@ -53,7 +53,23 @@ body {
 
 
 /* Horizontal Navigation List Styles */
-
+body {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); 
+ }
+ 
+ nav, footer {
+   grid-column: span 4;
+ }
+ 
+ aside {
+   grid-column: span 2;
+ }
+ .horizontal-nav li {
+   display: block;
+   width: 12.5%;
+   float: left;
+ }
 
 
 
