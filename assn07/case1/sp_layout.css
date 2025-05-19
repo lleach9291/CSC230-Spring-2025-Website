@@ -93,7 +93,47 @@ body {
 
 
 /* Customer Comment Styles */
+aside {
+   width: 75%;
+   padding-bottom: 30px;
+ }
+ .aside-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); 
+   grid-auto-rows: min-content; 
+}
 
+.aside-container aside {
+   padding: 1em;
+   border: 1px solid #ccc; 
+}
+
+.aside-container aside:nth-of-type(odd) {
+   justify-self: end; 
+}
+aside img {
+   float: left;
+   width: 20%;
+}
+aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+ }
+ aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+ }
+ aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+ }
+ 
+ 
+ 
+ 
 
 
 /* Footer Styles */
