@@ -110,6 +110,11 @@ battleMarkers {
 
 
 /* Map Information Styles */
-
+.hide-element {
+  display: none;
+}
+a.battleMarkers:hover + div.mapInfo {
+  display: block;
+}
 
 
