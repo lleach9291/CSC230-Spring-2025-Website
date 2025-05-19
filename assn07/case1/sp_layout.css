@@ -14,7 +14,28 @@
 */
 
 /* Window and Body Styles */
-
+html {
+   height: 100;
+}
+body {
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   min-height: 100vh; 
+   margin-left: auto;
+   margin-right: auto;
+ }
+ img {
+   display: block;
+ }
+ body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ #logo {
+   grid-column: span 3; 
+   width: 100%; 
+ }
 
 
 
