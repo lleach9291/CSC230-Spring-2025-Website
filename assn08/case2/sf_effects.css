@@ -31,7 +31,9 @@ body > header nav.tabs li {
   perspective: 50px;
   transform: rotateX(20deg); 
 }
-
+body > header nav.tabs li:hover {
+  background-color: rgb(231, 231, 231);
+}
 
 
 
