@@ -27,6 +27,10 @@ body > header nav.tabs {
   background-position: center;
   background-size: cover;
 }
+body > header nav.tabs li {
+  perspective: 50px;
+  transform: rotateX(20deg); 
+}
 
 
 
