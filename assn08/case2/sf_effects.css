@@ -47,7 +47,10 @@ body > header nav.tabs li:hover {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
-
+.left-section .vertical-navigation li h1 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
 
 
 /* Center Article Styles */
