@@ -54,7 +54,7 @@ body > header nav.tabs li:hover {
 
 
 /* Center Article Styles */
-section#center article {
+ article {
   background: radial-gradient(white 30%, rgb(151, 151, 151));
   border: 1px solid rgb(151, 151, 151);
   border-radius: 50px;
