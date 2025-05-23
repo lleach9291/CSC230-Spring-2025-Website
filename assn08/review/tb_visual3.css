@@ -47,9 +47,36 @@ figure {
     margin: 10px auto;
     width: 70%;
 }
+figure img {
+  border-width: 25px;
+  border-style: solid;
+  border-image-source: url('tb_frame.png');
+  border-image-slice: 60px;
+  border-image-repeat: stretch;
+  display: block;
+  width: 100%;
+  -webkit-filter: sepia(80%); 
+}
+figure figcaption {
+  font-family: 'Palatino Linotype', Palatino, 'Times New Roman', serif;
+  font-style: italic;
+  padding: 10px 0; 
+  text-align: center;
+}
 
 
 /* Article Styles */
+.article {
+  background-image: url("tb_back6.png");
+  background-position: bottom right;
+  background-size: 15% 15%;
+  background-repeat: no-repeat;
+  border-right: 8px double rgb(147, 116, 68);
+  border-bottom: 8px double rgb(147, 116, 68);
+  border-bottom-right-radius: 80px;
+  -webkit-box-shadow: inset -10px -10px 25px rgba(184, 154, 112, 0.7);
+  box-shadow: inset -10px -10px 25px rgba(184, 154, 112, 0.7);
+}
 
 
 
