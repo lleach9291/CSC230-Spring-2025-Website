@@ -15,9 +15,21 @@
 
 
 /* Transformation Styles */
-
+article {
+  perspective: 800px;
+}
+#figure1 {
+  transform: translateZ(-120px);
+}
+#figure2 {
+  transform: translateY(-20px) rotateY(50deg);
+}
+#figure3 {
+  transform: translateY(-30px) rotateY(-50deg);
+}
 
 
 /* Filter Styles */
+
 
 
