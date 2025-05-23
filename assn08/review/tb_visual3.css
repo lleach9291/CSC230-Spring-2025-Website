@@ -66,6 +66,17 @@ figure figcaption {
 
 
 /* Article Styles */
+.article {
+  background-image: url("tb_back6.png");
+  background-position: bottom right;
+  background-size: 15% 15%;
+  background-repeat: no-repeat;
+  border-right: 8px double rgb(147, 116, 68);
+  border-bottom: 8px double rgb(147, 116, 68);
+  border-bottom-right-radius: 80px;
+  -webkit-box-shadow: inset -10px -10px 25px rgba(184, 154, 112, 0.7);
+  box-shadow: inset -10px -10px 25px rgba(184, 154, 112, 0.7);
+}
 
 
 
