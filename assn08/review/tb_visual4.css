@@ -30,6 +30,15 @@ article {
 
 
 /* Filter Styles */
+#figure1 {
+  filter: saturate(1.3);
+}
+#figure2 {
+  filter: brightness(0.8) contrast(1.5);
+}
+#figure3 {
+  filter: hue-rotate(170deg) saturate(3) brightness(1.5);
+}
 
 
 
