@@ -47,6 +47,22 @@ figure {
     margin: 10px auto;
     width: 70%;
 }
+figure img {
+  border-width: 25px;
+  border-style: solid;
+  border-image-source: url('tb_frame.png');
+  border-image-slice: 60px;
+  border-image-repeat: stretch;
+  display: block;
+  width: 100%;
+  -webkit-filter: sepia(80%); 
+}
+figure figcaption {
+  font-family: 'Palatino Linotype', Palatino, 'Times New Roman', serif;
+  font-style: italic;
+  padding: 10px 0; 
+  text-align: center;
+}
 
 
 /* Article Styles */
