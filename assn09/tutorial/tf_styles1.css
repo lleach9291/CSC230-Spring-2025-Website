@@ -144,10 +144,10 @@ body > footer {
 }
 
 /* Pulldown Menu Styles */
-u.l submenu {
+ul.submenu {
    display: none;
 }
-a.sebmenuTitle:hover+ul.submenu, ul.submenu:hover {
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
    display:block;
 }
 
@@ -156,8 +156,22 @@ a.sebmenuTitle:hover+ul.submenu, ul.submenu:hover {
 
 /* New Styles Added Below */
 @media only screen and (max-width:480px) {
+   nav.horizontal a {
+      font-size: 1.5em;
+      line-height: 2.2em;
+   }
+   aside {
+      display: none;
+   }
 }
 @media only screen and (min-width:481px) {
+   ul.mainmenu > li {
+      float: left;
+      Width: 20%;
+   }
+   ul.submenu {
+      Width:200%;
+   }
 }
 @media only screen and (min-width: 769px) {
 }
