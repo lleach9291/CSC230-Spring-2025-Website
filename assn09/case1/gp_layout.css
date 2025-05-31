@@ -22,9 +22,19 @@
 @import url("gp_designs.css");
 
 /* Flex Layout Styles */
-
-
-
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+section#sheet {
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-basis: 301px;
+}
+article {
+  flex: 1 3 180px;
+}
 
 
 /* ============================================
