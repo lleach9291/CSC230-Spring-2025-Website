@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 5
+   Review Assignment
+   
+   Author:LaQuita Leachman   
+   Date:05/31/2025     
+      
+   Filename: tf_styles4.css
+
+   This file contains the screen styles used with the Trusted
+   Friends blog tips
+
+*/
+
+
+/* Import Basic Design Styles Used on All Screens */
+
+@import url("tf_designs.css");
+
+
+
+/* General Flex Styles */
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#left {
+  flex-grow: 1;
+  flex-shrink: 8;
+  flex-basis: 130px;
+  order: 99;
+}
+#right {
+   flex-grow:8;
+   flex-shrink: 1;
+   flex-basis: 351;
+}
+section.tips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+article { flex: 2 1 351px; }
+aside {
+  flex: 1 2 250px;
+}
+.nav.horizontal ul {
+  display: none;
+  flex-direction: column; 
+  flex-wrap: wrap;
+  height: 240px;
+}
+
+
+
+
+
+/* ===============================
+	Mobile Devices: 0 to 480px 
+   ===============================
+*/
+@media (max-width: 480px) {
+  a#navicon{
+    display: block;
+  }
+}	
+a#navicon:hover+ul,
+  nav.horizontal ul:hover {
+    display: block;
+   }
+
+
+
+/* ============================================
+	Tablet and Desktop Devices: 481px or more 
+   ============================================
+*/
+@media (min-width: 481px) {
+        /* Style rule to set the height of the horizontal nav list's ul to 160px */
+        .horizontal-nav ul {
+            height: 160px;
+        }
+    }
+    
+
+
