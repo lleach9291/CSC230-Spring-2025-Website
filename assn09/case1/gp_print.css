@@ -17,7 +17,38 @@
 
 
 /* Hidden Objects */
+@page {
+  /* Hide elements on print */
+  nav, footer, article {
+    display: none;
+  }
+}
 
+/* Style the 'sheet' section */
+section#sheet {
+  width: 6in;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style images based on their class */
+.size1 img {
+  width: 5in;
+}
+
+.size2 img {
+  width: 3in;
+}
+
+.size3 img {
+  width: 2in;
+}
+
+.size4 img {
+  width: 1.5in;
+}
 
 
 
