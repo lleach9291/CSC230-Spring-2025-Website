@@ -52,8 +52,20 @@ col {
 
 
 /* Table Header Styles */
+thead {
+  color: white;
+  background-color: rgb(105, 177, 60);
+}
+thead th:first-of-type {
+    background-color: rgb(153, 86, 7);
+}
+thead th:nth-of-type(7) {
+  background-color: rgb(153, 0, 153);
+}
 
-
+thead th:nth-of-type(8) {
+  background-color: rgb(153, 0, 153);
+}
 
 /* Table Footer Styles */
 
