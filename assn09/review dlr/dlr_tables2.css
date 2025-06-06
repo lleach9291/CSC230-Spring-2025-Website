@@ -14,8 +14,20 @@
 */
 
 /* Table Styles */
-
-
+table {
+  width: 100%;
+  border: 15px outset rgb(151, 151, 151);
+  border-collapse: collapse;
+  font-family: Arial, Verdana, sans-serif;
+}
+tr {
+  height: 25px;
+}
+th, td {
+  border: 1px solid gray;
+  vertical-align: top;
+  padding: 5px;
+}
 
 /* Table Caption Styles */
 
