@@ -16,5 +16,14 @@
 
 
 /* Column Styles */
+@media only screen and (min-width: 641px) {
+}
+@media (min-width: 768px) {
+    p {
+      column-count: 3;
+      column-gap: 20px;
+      column-rule: 1px solid black;
+    }
+  }
 
 

@@ -68,7 +68,10 @@ thead th:nth-of-type(8) {
 }
 
 /* Table Footer Styles */
-
+tfoot {
+  color: white;
+  background-color: black;
+}
 
 
 
