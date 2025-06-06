@@ -30,11 +30,25 @@ th, td {
 }
 
 /* Table Caption Styles */
-
+table {
+  caption-side: bottom; 
+  text-align: center;  
+}
 
 
 /* Table Column Styles */
-
+col {
+  width: 10%; 
+  background-color: rgb(215, 205, 151); 
+}
+.wDayColumns {
+  width: 11%;
+  background-color: rgb(236, 255, 211);
+}
+.your-column-class {
+  width: 17%; 
+  background-color: rgb(255, 231, 255); 
+} 
 
 
 /* Table Header Styles */
