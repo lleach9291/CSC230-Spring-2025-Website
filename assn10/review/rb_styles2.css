@@ -3,11 +3,11 @@
 /*
    New Perspectives on HTML and CSS
    Tutorial 7
-   Tutorial Case
+   Review Assignment
 
    Red Ball Pizza General Style Sheet
   
-   Filename: rb_styles.css
+   Filename: rb_styles2.css
 
 */
 
@@ -73,7 +73,7 @@ a#navicon {
 
 
 section {
-   margin: 30px 3%;
+   margin: 30px 5%;
 }
 
 section h1 {
