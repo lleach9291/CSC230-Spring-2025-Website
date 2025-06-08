@@ -36,7 +36,12 @@ td {
 
 
 /* Column Styles */
-
+#firstCol {
+  width: 24%;
+}
+.dataCols col {
+    width: 19%;
+  }
 
 
 /* Table Header Styles */
