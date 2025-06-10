@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 
+   Final Exam
+   Final Exam Project
+
+   My First Web Page
+   
+   Author:LaQuita Leachman  
+   Date:06/10/2025   
+
+   Filename: FinalExam.css
+
+   /* finalExam.css */
+
+body {
+  font-family: Verdana, Tahoma, Helvetica, sans-serif; /* All fonts should be of the sans-serif family */
+  color: black; /* All text should be black */
+  font-size: 16pt; /* 16-point in size */
+  width: 85%; /* The width should be 85% */
+  margin: auto; /* Margins set to auto for horizontal centering */
+  background-color: #333333; /* Dark background color, example: a dark grey */
+}
+
+header h1 {
+  font-size: 36pt; /* Font size of 36pt */
+  margin: 35px 0 0 0; /* Margin of 35px at the top and 0px everywhere else */
+  padding: 15px 0 0 15px; /* Padding of 15px top and left and zero right and bottom */
+  /* Background color set the same as the <nav> area - Define this in your <nav> style and use a CSS variable or repeat the color value here */
+  background-color: lightgray; /* Example: a light gray to contrast with the dark body */
+}
+
+header h3 {
+  font-size: 24pt; /* Font size of 24 pts */
+  margin: 0; /* Margin of 0px */
+  padding: 0 0 15px 15px; /* Padding of 15px bottom and left and 0px top and right */
+  /* Background color set the same as the <nav> area - Define this in your <nav> style and use a CSS variable or repeat the color value here */
+  background-color: lightgray; /* Example: a light gray to contrast with the dark body */
+}
+
+h1 {
+  font-family: Arial, sans-serif; /* Arial font */
+  font-size: 22pt; /* 22 points */
+  text-align: left; /* Left-aligned */
+  letter-spacing: 2px; /* Letter spacing of 2px */
+  margin: 0; /* Margin set to 0px */
+  padding: 15px 0 0 15px; /* Padding for 15px 0px 0px 15px */
+  color: #c0392b; /* Dark color to contrast the <section> below, example: a dark red */
+}
+
+h3 {
+  font-family: Arial, sans-serif; /* Arial font */
+  font-size: 16pt; /* 16 points */
+  text-align: left; /* Left-aligned */
+  color: #2980b9; /* Color different than h1 and contrasting <section> below, example: a dark blue */
+}
+
+p {
+  margin: 15px; /* Margins set to 15px */
+  padding: 15px; /* Padding set to 15px */
+}
+
+a {
+  text-decoration: none; /* Removes the underline for all hyperlinks */
+}
+
+a:hover {
+  color: #e74c3c; /* Changes color (your choice) when you hover over the text, example: a reddish-orange */
+}
+
+table {
+  border: none; /* No border */
+  border-collapse: collapse; /* Collapse borders to remove spacing between cells */
+  width: 90%; /* Width of the table set to 90% */
+  margin-left: 30px; /* Left margin set to 30px */
+}
+
+table td, table th {
+  padding: 2px 5px; /* Cell padding of 5px left and right and 2px top and bottom */
+}
+li {
+  background-color: gray;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Definitions for <header>, <nav>, <section>, and <footer> */
+
+header {
+  /* Add specific styles for the header element if needed beyond the h1 and h3 elements within it */
+}
+
+nav {
+  /* Define background color for the <nav> area here to be used in header h1 and h3 */
+  background-color: lightgray; /* Example: a light gray */
+}
+
+section {
+  /* Add specific styles for the section element, focusing on contrast with h1 and h3 colors */
+  background-color: white; /* Example: white background for contrast */
+  padding: 20px; /* Example padding */
+}
+
+footer {
+  /* Add specific styles for the footer element */
+}
+nav {
+  /* Set background color to a light shade (not white) */
+  background-color: #f0f0f0; /* Example: A light gray */
+  /* Set font color to a dark shade */
+  color: #333; /* Example: A dark gray */
+  /* Center text horizontally */
+  text-align: center;
+  /* Align text to the top of the section */
+  /* Note: Vertical alignment is better handled by Flexbox or Grid */
+  /* This example uses padding for vertical alignment, but you might need adjustments based on content */
+  padding-top: 10px; /* Add some padding at the top */
+  /* Set width to 25% */
+  width: 25%;
+  /* Remove margin and padding */
+  margin: 0;
+  padding: 0;
+  /* Note: Setting height to match sibling is complex with pure CSS. */
+  /* You may need to use Javascript to dynamically set the height. */
+  /* Alternatively, consider using Flexbox or CSS Grid for layout. */
+  /* For now, you will need to manually adjust the height as needed. */
+  height: auto; /* Allow height to adjust based on content */
+}
