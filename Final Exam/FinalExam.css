@@ -13,6 +13,23 @@
    Filename: FinalExam.css
 
    /* finalExam.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .week-title {
+            font-weight: bold;
+        }
 
 body {
   font-family: Verdana, Tahoma, Helvetica, sans-serif; /* All fonts should be of the sans-serif family */
@@ -36,8 +53,9 @@ header h3 {
   margin: 0; /* Margin of 0px */
   padding: 0 0 15px 15px; /* Padding of 15px bottom and left and 0px top and right */
   /* Background color set the same as the <nav> area - Define this in your <nav> style and use a CSS variable or repeat the color value here */
-  background-color: lightgray; /* Example: a light gray to contrast with the dark body */
+  background-color: white; /* Example: a light gray to contrast with the dark body */
 }
+
 
 h1 {
   font-family: Arial, sans-serif; /* Arial font */
@@ -46,14 +64,16 @@ h1 {
   letter-spacing: 2px; /* Letter spacing of 2px */
   margin: 0; /* Margin set to 0px */
   padding: 15px 0 0 15px; /* Padding for 15px 0px 0px 15px */
-  color: #c0392b; /* Dark color to contrast the <section> below, example: a dark red */
+  color:black; /* Dark color to contrast the <section> below, example: a dark red */
 }
+
 
 h3 {
   font-family: Arial, sans-serif; /* Arial font */
   font-size: 16pt; /* 16 points */
   text-align: left; /* Left-aligned */
-  color: #2980b9; /* Color different than h1 and contrasting <section> below, example: a dark blue */
+  color: black; /* Color different than h1 and contrasting <section> below, example: a dark blue */
+  
 }
 
 p {
@@ -80,16 +100,20 @@ table td, table th {
   padding: 2px 5px; /* Cell padding of 5px left and right and 2px top and bottom */
 }
 li {
-  background-color: gray;
+  background-color: turquoise;
   border: 1px solid black;
   padding: 10px;
   text-align: center;
 }
+ul {
+    background-color: white;
+}
+
 
 /* Definitions for <header>, <nav>, <section>, and <footer> */
 
 header {
-  /* Add specific styles for the header element if needed beyond the h1 and h3 elements within it */
+ background-color: bisque;
 }
 
 nav {
@@ -99,8 +123,9 @@ nav {
 
 section {
   /* Add specific styles for the section element, focusing on contrast with h1 and h3 colors */
-  background-color: white; /* Example: white background for contrast */
+  background-color: pink; /* Example: white background for contrast */
   padding: 20px; /* Example padding */
+
 }
 
 footer {
