@@ -114,17 +114,20 @@ ul {
 
 header {
  background-color: bisque;
+ padding-top: 0px;
 }
 
 nav {
   /* Define background color for the <nav> area here to be used in header h1 and h3 */
-  background-color: lightgray; /* Example: a light gray */
+  background-color: lightgray; 
+
+ 
 }
 
 section {
   /* Add specific styles for the section element, focusing on contrast with h1 and h3 colors */
   background-color: pink; /* Example: white background for contrast */
-  padding: 20px; /* Example padding */
+  padding-top: 50px; /* Example padding */
 
 }
 
